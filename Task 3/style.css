@@ -1,0 +1,65 @@
+body{
+    background-color: plum;
+}
+
+.main-wrapper{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px 0%;
+}
+.action-wrapper{
+    padding: 30px;
+}
+.action-wrapper input{
+    font-size: 1rem;
+    padding: 10px;
+    border: blue 1px solid;
+}
+.action-wrapper button, .item-actions button{
+    padding: 12px;
+    background-color: purple;
+    color: white;
+    font-weight: bolder;
+    border: solid 1px rgb(112, 153, 153);
+}
+.action-wrapper button:hover, .item-actions button:hover{
+    background-color: #ff00ff;
+    color: white;
+    border: blue 1px solid;
+    cursor: pointer;
+}
+.list-item{  
+    width: 100%;
+    margin: 20px 0%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.item-name{
+    padding: 10px;
+    font-size: 35px;
+    font-weight: 600;
+    color: #a52a2a9e;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px; /* Adjust the gap between social icons */
+    position: absolute;
+    bottom: 20px; /* Adjust the distance from the bottom */
+    z-index: 4;
+    left: 46.5%;
+  }
+  
+  .social-icons img {
+    width: 40px; /* Adjust the size of the icons */
+    height: 40px;
+    transition: transform 0.2s ease; /* Add a smooth transition on hover */
+  }
+  
+  .social-icons img:hover {
+    transform: translateY(-5px); /* Move the icons up slightly on hover */
+  }
